@@ -4,22 +4,15 @@
 
 :root {
     --black: #000000;
-    --darkblue: #150050;
+    --darkblue: #050014;
     --mauve: #3F0071;
     --pink: #FB2576;
     --white: #ffffff;
     --textstyle:font-family: 'Poppins', sans-serif;
-  }
-
-header { 
-    background-color: var(--darkblue);
-    color: var(--white); 
-  }
-
-footer{
-    background-color: var(--darkblue);
-    color: var(--white); 
 }
+
+
+
 
 h1{
     font-size:40px;
@@ -36,15 +29,27 @@ h4{
     color: var(--white); 
 }
 
+.navbar{
+  background-color: var(--darkblue);
+}
+
+.offcanvas-header {
+  background-color: var(--pink);
+}
+
+
+.offcanvas-body {
+  background-color: var(--pink);
+}
+
+.navbar-toggler {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+}
+
 /*---------------------------------------------------------- 
 # Section Hero  
 ----------------------------------------------------------*/ 
-section.hero{
-    background-color:var(--black);
-    color: var(--white); 
-    
-  }
-.card { 
-    background-color: var(--mauve);
-  }
- 
+
