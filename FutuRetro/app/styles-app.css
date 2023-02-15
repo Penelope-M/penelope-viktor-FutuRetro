@@ -16,6 +16,8 @@
 body{
   background-color: var(--darkblue);
   height: 300vh;
+  margin: 15px;
+  
  
 }
 
@@ -80,6 +82,21 @@ h4{
 
 p {
   color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--darkblue);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fb2577e8;    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */
+  border: 1px solid var(--darkmauve);
+  opacity: 0.1;  /* creates padding around scroll thumb */
 }
 
 /*---------------------------------------------------------- 
