@@ -5,14 +5,22 @@
 :root {
     --black: #000000;
     --darkblue: #050014;
+    --darkmauve: #150050;
     --mauve: #3F0071;
     --pink: #FB2576;
     --white: #ffffff;
     --textstyle:font-family: 'Poppins', sans-serif;
+    --hamburger: url(/FutuRetro/assets/images/hamburger.png);
 }
 
+body{
+  background-color: var(--darkblue);
+ 
+}
 
-
+main{
+  margin-top: 100px;
+}
 
 h1{
     font-size:40px;
@@ -47,6 +55,12 @@ h4{
   width: 60px;
   height: 60px;
   align-items: center;
+  background-color: var(--darkmauve);
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: var(--hamburger);
 }
 
 /*---------------------------------------------------------- 
