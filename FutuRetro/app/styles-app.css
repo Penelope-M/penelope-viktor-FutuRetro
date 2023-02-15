@@ -15,15 +15,13 @@
 
 body{
   background-color: var(--darkblue);
-  height: 300vh;
-  margin: 15px;
-  
- 
+  margin-top: 100px;
 }
 
 main{
   margin-top: 100px;
   height: 100vh;
+  margin: 15px;
 }
 
 h1{
@@ -98,6 +96,14 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;       /* roundness of the scroll thumb */
   border: 1px solid var(--darkmauve);
   opacity: 0.1;  /* creates padding around scroll thumb */
+}
+
+footer {
+  background-color: var(--mauve);
+  height: 200px;
+  padding: 2rem;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 /*---------------------------------------------------------- 
