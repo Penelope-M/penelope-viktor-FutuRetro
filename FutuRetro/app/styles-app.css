@@ -15,6 +15,7 @@
 
 body{
   background-color: var(--darkblue);
+  height: 300vh;
  
 }
 
@@ -59,15 +60,27 @@ h4{
   border: none;
 }
 
+.navbar-brand {
+  width: 70px;
+  text-align: center;
+  margin: 0;
+}
+
 .navbar-toggler-icon {
   background-image: var(--hamburger);
 }
 
 .Logo {
-  width: 70%;
+  width: 70px;
 }
 
+.profile {
+  width: 60px;
+}
 
+p {
+  color: white;
+}
 
 /*---------------------------------------------------------- 
 # Section Hero  
