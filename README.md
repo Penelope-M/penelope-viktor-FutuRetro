@@ -1,1 +1,6 @@
-# penelope-viktor-airflight
+# FutuRetro
+## Optimisation Web - FutuRetro 
+
+### Équipe : 
+- Zhuravlev Viktor
+- Pénélope Morrison
