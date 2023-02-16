@@ -118,6 +118,25 @@ footer {
   width: 100px;
 }
 
+.has-search .form-control {
+  padding-left: 3rem;
+}
+
+.fa-search{
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+
+}
+
+
+
 .form-control {
   border-radius: 70px;
   background-color: var(--darkmauve);
@@ -125,8 +144,10 @@ footer {
   margin-right: 0;
   height: 50px;
   font-size: 18px ;
-
+  
 }
+
+
 .me-2 {
   margin-right: 0 !important;
 }
@@ -140,6 +161,18 @@ input::placeholder {
   width: 100%;
   margin: 0;
   width: 100%;
-  max-width: 100%;
+  max-width: 800px;
   padding: 0;
+  display: block;
+  
+
+  
+}
+
+.icon{
+  width: 22px;
+  height: 22px;
+  fill: white;
+  transform: translate(20%,20%);
+  
 }
