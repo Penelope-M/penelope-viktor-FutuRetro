@@ -65,14 +65,12 @@ h4{
   border-radius: 100%;
   width: 60px;
   height: 60px;
-  align-items: center;
   background-color: var(--darkmauve);
   border: none;
 }
 
 .navbar-brand {
   width: 70px;
-  text-align: center;
   margin: 0;
 }
 
@@ -86,18 +84,18 @@ h1, p {
 }
 
 body::-webkit-scrollbar {
-  width: 10px;               /* width of the entire scrollbar */
+  width: 10px;             
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--darkblue);        /* color of the tracking area */
+  background: var(--darkblue);      
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #fb2577e8;    /* color of the scroll thumb */
-  border-radius: 10px;       /* roundness of the scroll thumb */
+  background-color: #fb2577e8;   
+  border-radius: 10px;     
   border: 1px solid var(--darkmauve);
-  opacity: 0.1;  /* creates padding around scroll thumb */
+  opacity: 0.1;  
 }
 
 footer {
@@ -153,6 +151,7 @@ footer {
   margin-right: 0;
   height: 50px;
   font-size: 18px;
+  text-overflow: ellipsis;
 }
 
 
@@ -172,8 +171,6 @@ input::placeholder {
   max-width: 800px;
   padding: 0;
   display: block;
-  
-
   
 }
 
@@ -213,6 +210,7 @@ ul {
 
 
 .cool {
-  overflow-x: hidden;
+  overflow: hidden;
+
   padding: 0;
 }
