@@ -100,7 +100,7 @@ footer {
   display: flex;
 }
 
-.container{
+.pied{
   justify-content: center;
   align-self: center;
   width: 100%;
@@ -119,19 +119,27 @@ footer {
 }
 
 .form-control {
-  border-radius: 20px;
-  background-color: #150050;
+  border-radius: 70px;
+  background-color: var(--darkmauve);
   border: none;
+  margin-right: 0;
+  height: 50px;
+  font-size: 18px ;
 
+}
+.me-2 {
+  margin-right: 0 !important;
 }
 
 input::placeholder {
-  color: rgb(255, 255, 255);
+  color: var(--pink) !important;
   opacity: 1; 
 }
 
-.cock {
+.recherche {
   width: 100%;
-  background-color: #FB2576;
-  
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
 }
