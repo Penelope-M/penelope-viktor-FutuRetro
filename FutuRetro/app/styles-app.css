@@ -100,12 +100,25 @@ body::-webkit-scrollbar-thumb {
 
 footer {
   background-color: var(--mauve);
-  height: 200px;
-  padding: 2rem;
+  padding: 1rem;
   margin-top: 1rem;
   text-align: center;
+  height: 200px; 
+  display: flex;
 }
 
+.container {
+  justify-content: center;
+  align-self: center;
+}
+
+.logo-tim{
+  width: 200px;
+}
+
+.col-sm-6 {
+  align-self: center;
+}
 /*---------------------------------------------------------- 
 # Section Hero  
 ----------------------------------------------------------*/ 
