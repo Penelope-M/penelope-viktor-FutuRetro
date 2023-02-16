@@ -71,8 +71,9 @@ h4{
   background-image: var(--hamburger);
 }
 
-p {
+h1, p {
   color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -99,9 +100,10 @@ footer {
   display: flex;
 }
 
-.container {
+.container{
   justify-content: center;
   align-self: center;
+  width: 100%;
 }
 
 .logo-tim{
@@ -111,7 +113,25 @@ footer {
 .col-sm-6 {
   align-self: center;
 }
-/*---------------------------------------------------------- 
-# Section Hero  
-----------------------------------------------------------*/ 
 
+.bi-search {
+  width: 100px;
+}
+
+.form-control {
+  border-radius: 20px;
+  background-color: #150050;
+  border: none;
+
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1; 
+}
+
+.cock {
+  width: 100%;
+  background-color: #FB2576;
+  
+}
