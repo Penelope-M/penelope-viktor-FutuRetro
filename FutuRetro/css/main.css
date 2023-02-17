@@ -44,7 +44,9 @@ h4 {
 # Section Hero  
 ----------------------------------------------------------*/
 
-section.hero {
+main {
     background-color: var(--black);
     color: var(--white);
+    
 }
+/*height: 100%;*/

@@ -22,10 +22,30 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-dark navbar-expand-lg">
-            <div class="container-fluid">
-                <h1>This is a Heading</h1>
+        <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+            <div class="container-fluid"><div id="mainNav" class="collapse navbar-collapse">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#"
+                ><img class="Logo" width= "70px" src="\FutuRetro\assets\images\Logo.png"
+              />FutuRetro</a>
+             
+                <div id="mainNav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active href="#appli">L'appli</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active href="#Fonctionnalites">Fonctionnalités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active href="#Voir>En savoir plus</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+             
         </nav>
     </header>
 
@@ -33,9 +53,24 @@
         <section class="hero">
             <div>
 
-                <p>This is a paragraph.</p>
+                <h1>Hero</h1>
             </div>
         </section>
+
+        <section class="fonctionnalite">
+            <div>
+
+                <h1>Fuctionnalités</h1>
+            </div>
+        </section>
+
+        <section class="voir">
+            <div>
+
+                <h1>Voir plus.</h1>
+            </div>
+        </section>
+
     </main>
 
     <footer>
@@ -45,3 +80,5 @@
 </body>
 
 </html>
+
+//fixed-top fige la navbar au sommet de la page.//
