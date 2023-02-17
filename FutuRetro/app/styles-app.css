@@ -40,7 +40,7 @@ h1 {
 }
 
 h2 {
-    color: var(--pink);
+    color: var(--white);
 }
 
 h3 {
@@ -90,7 +90,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #fb2577e8;
+    background-color: var(--pink);
     border-radius: 10px;
     border: 1px solid var(--darkmauve);
     opacity: 0.1;
@@ -136,7 +136,6 @@ footer {
     line-height: 2.375rem;
     text-align: center;
     pointer-events: none;
-    color: #aaa;
 }
 
 .form-control {
@@ -170,7 +169,7 @@ input::placeholder {
 .icon {
     width: 22px;
     height: 22px;
-    fill: white;
+    fill: var(--white);
     transform: translate(20%, 20%);
 }
 
@@ -191,7 +190,7 @@ ul {
     margin-left: 12px !important;
     height: 40px !important;
     font-size: 18px !important;
-    color: #FB2576;
+    color: var(--white);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -205,16 +204,18 @@ ul {
 
 .card-img-top {
     object-fit: cover;
-    
+    height: 20vh;
 }
+
+
 
 .card {
    background-color: var(--mauve); 
-
+   width: 300px;
 }
 
 .btn-primary {
-    color: white;
+    color: var(--white);
     background-color: var(--pink);
     border-radius: 40px !important;
     border: none !important;
@@ -225,5 +226,10 @@ ul {
     flex-direction: column;
     white-space: nowrap;
     
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
 }
 
