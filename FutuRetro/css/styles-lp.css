@@ -14,7 +14,7 @@ nav {
 /*---------------------------------------------------------- 
 # Section Hero  
 ----------------------------------------------------------*/ 
-/*.card { 
+.card { 
     background-color: var(--mauve);
   }
 .card-title {     
@@ -28,7 +28,7 @@ nav {
   color: var(--rose);
   border-style: solid;
   border-color: var(--rose)
-}*/
+}
 section {
   height: 100vh;
  
