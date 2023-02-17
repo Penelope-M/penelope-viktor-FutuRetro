@@ -16,19 +16,22 @@ nav {
 ----------------------------------------------------------*/ 
 .card { 
     background-color: var(--mauve);
-    
+    height: 800px;
   }
 
  /*.card-title {
     border-bottom: 6px solid var(--rose);  
   }
-
- button{
-  background-color:none;
-  color: var(--rose);
+*/
+.btn1{
+  background-color:transparent;
+  color: var(--pink);
   border-style: solid;
-  border-color: var(--rose);
-}*/
+  border-color: #FB2576;
+  border: 1px solid #FB2576;
+  color:#FB2576;
+}
+/* MARIE_MICHELLE je n'ai pas pu faire les var pour le bouton car il ne le détecte pas*/
 section {
   height: 100vh;
  
@@ -47,7 +50,8 @@ footer a {
  }
  .cadrecell {
   width: 100%;
-  height: auto;
+  padding: 2%;
+ 
 }
 iframe{
   width: 100%;
