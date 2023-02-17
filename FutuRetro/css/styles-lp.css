@@ -5,7 +5,10 @@
   width: 100vh;
 }*/
 
-
+nav {
+ 
+  color: var(--pink);
+}
 
 
 /*---------------------------------------------------------- 
@@ -35,3 +38,10 @@ footer {
  padding: 1rem;
  margin-top: 1rem;
 }
+footer a {
+  color: var(--white);
+  text-decoration: none;
+ }
+ footer a:hover {
+  color: var(--pink);
+ }
