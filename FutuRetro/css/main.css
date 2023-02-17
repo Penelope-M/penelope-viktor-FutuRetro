@@ -11,9 +11,12 @@
     --textstyle: font-family: 'Poppins', sans-serif;
 }
 
-header {
+nav {
     background-color: var(--darkblue);
     color: var(--white);
+}
+body{
+    background-color: var(--darkblue);
 }
 
 footer {
@@ -47,6 +50,6 @@ h4 {
 main {
     background-color: var(--black);
     color: var(--white);
-    
+   
 }
-/*height: 100%;*/
+/*;*/

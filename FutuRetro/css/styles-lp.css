@@ -26,6 +26,12 @@
   border-style: solid;
   border-color: var(--rose)
 }*/
-main {
+section {
   height: 100vh;
+ 
+}
+
+footer {
+ padding: 1rem;
+ margin-top: 1rem;
 }
