@@ -78,7 +78,7 @@ h4 {
 h1,
 p {
     color: white;
-    text-align: center;
+ 
 }
 
 body::-webkit-scrollbar {
@@ -205,13 +205,20 @@ ul {
 .card-img-top {
     object-fit: cover;
     height: 20vh;
+    border-radius: 10px;
 }
 
 
 
 .card {
    background-color: var(--mauve); 
-   width: 300px;
+   width: 200px;
+   border-radius: 10px;
+}
+
+.card-body{
+    padding: 10px;
+    
 }
 
 .btn-primary {
@@ -233,3 +240,7 @@ a {
     color: var(--white);
 }
 
+.bi-calendar3{
+    width: 50px;
+    
+}
