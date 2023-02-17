@@ -205,10 +205,12 @@ ul {
 
 .card-img-top {
     object-fit: cover;
+    
 }
 
 .card {
    background-color: var(--mauve); 
+
 }
 
 .btn-primary {
@@ -222,5 +224,6 @@ ul {
     justify-content: center;
     flex-direction: column;
     white-space: nowrap;
-
+    
 }
+
