@@ -17,9 +17,7 @@ nav {
 .card { 
     background-color: var(--mauve);
   }
-.card-title {     
-  background-color: var(--mauve);
-}
+
 .card-title {
     border-bottom: 6px solid var(--rose);  
   }
