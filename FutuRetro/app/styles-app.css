@@ -1,10 +1,11 @@
 /*--------------------------------------------------------- 
 # Styles Généraux 
----------------------------------------------------------*/ 
-*{
-  font-family: 'Poppins', sans-serif;
-  
+---------------------------------------------------------*/
+
+* {
+    font-family: 'Poppins', sans-serif;
 }
+
 :root {
     --black: #000000;
     --darkblue: #050014;
@@ -12,205 +13,192 @@
     --mauve: #3F0071;
     --pink: #FB2576;
     --white: #ffffff;
-    --textstyle:font-family: 'Poppins', sans-serif;
+    --textstyle: font-family: 'Poppins', sans-serif;
     --hamburger: url(/FutuRetro/assets/images/hamburger.png);
 }
 
-body{
-  background-color: var(--darkblue);
-  margin-top: 100px;
+body {
+    background-color: var(--darkblue);
+    margin-top: 100px;
 }
 
-main{
-  margin-top: 100px;
-  height: 100vh;
-  margin: 15px;
-  
+main {
+    margin-top: 100px;
+    height: 100vh;
+    margin: 15px;
 }
 
 .cry {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
-h1{
-    font-size:40px;
+h1 {
+    font-size: 40px;
     font-weight: 900;
-    color: var(--white); 
-}
-h2{
-    color: var(--white); 
-}
-h3{
-    color: var(--white); 
-}
-h4{ 
-    color: var(--white); 
+    color: var(--white);
 }
 
-.navbar{
-  background-color: var(--darkblue);
+h2 {
+    color: var(--white);
+}
+
+h3 {
+    color: var(--white);
+}
+
+h4 {
+    color: var(--white);
+}
+
+.navbar {
+    background-color: var(--darkblue);
 }
 
 .offcanvas-header {
-  background-color: var(--pink);
+    background-color: var(--pink);
 }
 
-
 .offcanvas-body {
-  background-color: var(--pink);
+    background-color: var(--pink);
 }
 
 .navbar-toggler {
-  border-radius: 100%;
-  width: 60px;
-  height: 60px;
-  background-color: var(--darkmauve);
-  border: none;
-}
-
-.navbar-brand {
-  width: 70px;
-  margin: 0;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--darkmauve);
+    border: none;
 }
 
 .navbar-toggler-icon {
-  background-image: var(--hamburger);
+    background-image: var(--hamburger);
 }
 
-h1, p {
-  color: white;
-  text-align: center;
+h1,
+p {
+    color: white;
+    text-align: center;
 }
 
 body::-webkit-scrollbar {
-  width: 10px;             
+    width: 10px;
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--darkblue);      
+    background: var(--darkblue);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #fb2577e8;   
-  border-radius: 10px;     
-  border: 1px solid var(--darkmauve);
-  opacity: 0.1;  
+    background-color: #fb2577e8;
+    border-radius: 10px;
+    border: 1px solid var(--darkmauve);
+    opacity: 0.1;
 }
 
 footer {
-  background-color: var(--mauve);
-  padding: 1rem;
-  margin-top: 1rem;
-  text-align: center;
-  height: 200px; 
-  display: flex;
+    background-color: var(--mauve);
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    height: 200px;
+    display: flex;
 }
 
-.pied{
-  justify-content: center;
-  align-self: center;
-  width: 100%;
+.pied {
+    justify-content: center;
+    align-self: center;
+    width: 100%;
 }
 
-.logo-tim{
-  width: 200px;
+.logo-tim {
+    width: 200px;
 }
 
 .col-sm-6 {
-  align-self: center;
+    align-self: center;
 }
 
 .bi-search {
-  width: 100px;
+    width: 100px;
 }
 
 .has-search .form-control {
-  padding-left: 3rem;
+    padding-left: 3rem;
 }
 
-.fa-search{
-  position: absolute;
-  z-index: 2;
-  display: block;
-  width: 2.375rem;
-  height: 2.375rem;
-  line-height: 2.375rem;
-  text-align: center;
-  pointer-events: none;
-  color: #aaa;
-
+.fa-search {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
 }
-
-
 
 .form-control {
-  border-radius: 70px;
-  background-color: var(--darkmauve);
-  border: none;
-  margin-right: 0;
-  height: 50px;
-  font-size: 18px;
-  text-overflow: ellipsis;
+    border-radius: 70px;
+    background-color: var(--darkmauve);
+    border: none;
+    margin-right: 0;
+    height: 50px;
+    font-size: 18px;
+    text-overflow: ellipsis;
 }
 
-
 .me-2 {
-  margin-right: 0 !important;
+    margin-right: 0 !important;
 }
 
 input::placeholder {
-  color: var(--pink) !important;
-  opacity: 1; 
+    color: var(--pink) !important;
+    opacity: 1;
 }
 
 .recherche {
-  width: 100%;
-  margin: 0;
-  width: 100%;
-  max-width: 800px;
-  padding: 0;
-  display: block;
-  
+    width: 100%;
+    margin: 0;
+    width: 100%;
+    max-width: 800px;
+    padding: 0;
+    display: block;
 }
 
-.icon{
-  width: 22px;
-  height: 22px;
-  fill: white;
-  transform: translate(20%,20%);
-  
+.icon {
+    width: 22px;
+    height: 22px;
+    fill: white;
+    transform: translate(20%, 20%);
 }
-
-
 
 ul {
-  list-style-type: none;
-  padding: 0 !important;
+    list-style-type: none;
+    padding: 0 !important;
 }
 
 .filter {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .btn {
-  border-radius: 40px !important;
-  background-color: var(--mauve) !important;
-  border: none !important;
-  margin-right: 12px !important;
-  margin-left: 12px !important;
-  height: 40px !important;
-  font-size: 18px !important;
-  color: #FB2576;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  white-space: nowrap;
+    border-radius: 40px !important;
+    background-color: var(--mauve) !important;
+    border: none !important;
+    margin-right: 12px !important;
+    margin-left: 12px !important;
+    height: 40px !important;
+    font-size: 18px !important;
+    color: #FB2576;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    white-space: nowrap;
 }
 
-
 .cool {
-  overflow: hidden;
-
-  padding: 0;
+    overflow: hidden;
+    padding: 0;
 }
