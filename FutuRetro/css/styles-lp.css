@@ -16,7 +16,8 @@ nav {
 ----------------------------------------------------------*/ 
 .card { 
     background-color:var(--mauve);
-    
+    width: 100%;
+  height:auto;
   }
   
 
