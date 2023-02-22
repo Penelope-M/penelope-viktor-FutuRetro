@@ -104,8 +104,8 @@ p {
   height:20vh; 
   object-fit: contain;
   object-position: 50% 50%;
-  max-width: 100%;
+
 }
-.voir p {
+.tem p {
   font-size: 15px;
 }
