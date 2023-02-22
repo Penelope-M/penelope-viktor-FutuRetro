@@ -81,12 +81,10 @@ p {
 
 .fonctionnalite p {
   font-size: 15px;
- 
 }
 .fonctionnalite .card {
   width: 100%;
-  height:100%;
-  
+  height:100%; 
 }
 
 .card i{
@@ -102,4 +100,11 @@ p {
     0% {  color: var(--pink) ;}
 } 
 
-  
+.card-img-top {
+  height:20vh; 
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+.voir p {
+  font-size: 15px;
+}
