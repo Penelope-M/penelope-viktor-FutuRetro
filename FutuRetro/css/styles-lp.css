@@ -93,7 +93,7 @@ p {
   height:100%; 
 }
 
-.card i{
+.fonctionnalite .card i{
   width: 40px;
   height:40px;
   font-size: 2rem; 
@@ -121,4 +121,12 @@ p {
 }
 .tem h2 {
   color: var(--mauve);
+}
+.tem .card i{
+  width: 40px;
+  height:40px;
+  font-size: 2rem; 
+  color: var(--white);
+ 
+  
 }
