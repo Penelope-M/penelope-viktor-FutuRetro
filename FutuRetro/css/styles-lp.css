@@ -97,13 +97,13 @@ p {
   width: 40px;
   height:40px;
   font-size: 2rem; 
-  color: var(--white);
+  color:#ffffff ;
   animation: myfirst 5s 2;
   animation-iteration-count: infinite;
   
 }
 @keyframes myfirst {
-    0% {  color: var(--pink) ;}
+    0% {  color: #FB2576 ;}
 } 
 
 .card-img-top {
