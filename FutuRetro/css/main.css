@@ -2,7 +2,7 @@
 # Styles Généraux 
 ---------------------------------------------------------*/
 
-:root {
+/*:root {
     --black: #000000;
     --darkblue: #150050;
     --mauve: #3F0071;
@@ -22,7 +22,7 @@ body{
 footer {
     background-color: var(--darkblue);
     color: var(--white);
-}
+}*/
 
 h1 {
     font-size: 40px;
