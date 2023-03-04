@@ -322,14 +322,14 @@
       <div class="img-info ">  
     <div class="container  ">
       <div class="row justify-content-center">
-        <div class="col-0 col-md-6 col-lg-0 mb-5 mt-5">
+        <div class="col-0 col-md-6 col-lg-0 ">
         </div>
-        <div class="col-12 col-md-6 col-lg-12 mb-5 mt-5">
-          <div class=" card bg-info text-primary">
-            <div class="card-body text-center text-md-start text-lg-center ">
-              <h2 class="card-title">Infolettre</h2>
+        <div class="col-12 col-md-6 col-lg-12 mb-5 mt-5 ">
+          <div class=" card bg-info bg-opacity-50 text-primary ">
+            <div class="card-body text-center text-md-start text-lg-center  ">
+              <h2 class="card-title ">Infolettre</h2>
               <p class="card-text text-light">Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l'appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</p>
-              <button type="button" class="btn btn-outline-primary btn-lg" href="#abonnement">Je m'abonne</button> 
+              <button type="button" class="btn btn-outline-primary btn-lg" href="#abonnement"data-bs-toggle="modal" data-bs-target="#staticBackdrop">Je m'abonne</button> 
             </div>
           </div>
         </div>
@@ -339,7 +339,26 @@
     </section>
 
   </main>
-
+  <div class="modal fade" tabindex="-1" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Restez informé!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group ">
+            <i class="bi bi-envelope"></i>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Votre adresse courriel">
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+          <button type="button" class="btn btn-primary">M'inscrire</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer class=" bg-secondary text-light">
     <div class="container ">
       <div class="row justify-content-center">
