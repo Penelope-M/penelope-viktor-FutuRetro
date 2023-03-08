@@ -20,6 +20,7 @@
 body {
     background-color: var(--darkblue);
     margin-top: 100px;
+    overflow-x: hidden;
 }
 
 main {
@@ -78,7 +79,6 @@ h4 {
 h1,
 p {
     color: white;
- 
 }
 
 body::-webkit-scrollbar {
@@ -208,17 +208,19 @@ ul {
     border-radius: 10px;
 }
 
-
-
 .card {
-   background-color: var(--mauve); 
-   width: 200px;
-   border-radius: 10px;
+    background-color: var(--mauve);
+    border-radius: 10px;
+    max-width: 200px;
+    width: 200px !important;
 }
 
-.card-body{
+.card-title {
+    margin-top: 8px;
+}
+
+.card-body {
     padding: 10px;
-    
 }
 
 .btn-primary {
@@ -232,7 +234,6 @@ ul {
     justify-content: center;
     flex-direction: column;
     white-space: nowrap;
-    
 }
 
 a {
@@ -240,7 +241,17 @@ a {
     color: var(--white);
 }
 
-.bi-calendar3{
+.bi-calendar3 {
     width: 50px;
-    
+}
+
+.artist-icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.vedette {
+    width: 140%;
 }
