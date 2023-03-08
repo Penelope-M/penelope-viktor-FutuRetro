@@ -276,8 +276,9 @@ a {
 }
 
 .cartes {
-    min-width: 80vh;
+    min-width: 75vh;
     margin-bottom: 20px;
+    overflow-x: hidden;
 }
 
 .autres {
@@ -318,4 +319,21 @@ a {
 .carte-bas-texte {
     padding: 0;
     margin-bottom: 10px;
+}
+
+.nav-artwork {
+    background-color: #05001400;
+}
+
+.artwork-artist {
+    height: 33vh;
+}
+
+.artwork-section {
+    background-color: var(--mauve);
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    transform: translate(0%, -5%);
+    border-radius: 15px 15px 0px 0px;
 }

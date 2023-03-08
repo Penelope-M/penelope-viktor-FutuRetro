@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
     <link href="/FutuRetro/app/styles-app.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,268 +19,37 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark fixed-top">
+        <nav class="navbar navbar-dark fixed-top nav-artwork">
             <div class="container-fluid">
+                <a href="index.html"><button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasDarkNavbar"
+              aria-controls="offcanvasDarkNavbar">
+              <svg xmlns="http://www.w3.org/2000/svg" style="fill: rgb(255, 255, 255)" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+              </svg>
+            </button>
+          </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-                <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
-                            FutuRetro
-                        </h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Acceuil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Programmation</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Oeuvres</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Presentation des artistes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Amis sur la carte interactive</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <a class="navbar-brand" href="#"><img class="Logo" width="70px" height="70px" src="\FutuRetro\assets\images\Logo.png"></a>
-                <img src="\FutuRetro\assets\images\profile.png" class="profile" alt="profile" width="60px" />
+              <svg xmlns="http://www.w3.org/2000/svg" style="fill: rgb(255, 255, 255)" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+</svg>
+            </button>
             </div>
         </nav>
     </header>
     <main>
-        <div class="cry">
-            <div class="container recherche">
-                <div class="row">
-                    <div class="form-group has-search">
-                        <span class="fa fa-search form-control-feedback"><svg
-                  class="icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-search"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                  /></svg
-              ></span>
-                        <input type="text" class="form-control" placeholder="Rechercher une oeuvre, un artiste..." />
-                    </div>
-                </div>
-                <div class="row filter">
-                    <div class="cool">
-                        <ul class="options d-flex justify-content-between">
-                            <li>
-                                <button type="button" class="btn btn-filter">Toutes</button>
-                            </li>
-                            <li>
-                                <button type="button" class="btn btn-filter">
-                    Installations interactives
-                  </button>
-                            </li>
-                            <li>
-                                <button type="button" class="btn btn-filter">Concert</button>
-                            </li>
-                            <li>
-                                <button type="button" class="btn btn-filter">
-                    Performances
-                  </button>
-                            </li>
-                            <li>
-                                <button type="button" class="btn btn-filter">AR/VR</button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <section class="row vedette justify-content-between d-flex">
-                    <h2>En vedette</h2>
-                    <div class="row cartes justify-content-between d-flex">
-                        <a href="artwork.html" class="col-4">
-                            <div class="card carte-haut">
-                                <div class="card-body carte-haut-corps">
-                                    <img src="\FutuRetro\assets\images\silly_cat.jpg" class="card-img-top carte-haut-image" alt="cat" />
-                                    <h4 class="card-title carte-haut-titre">Goofy Cat</h4>
-                                    <p class="card-text carte-haut-texte">Par: Rayon</p>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="col-6">
-                                            <p class="card-text carte-haut-texte"><i class="bi bi-calendar3"> 10/03/23</i></p>
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="card-text carte-haut-texte"><i class="bi bi-clock"> 20h</i></p>
-                                        </div>
-                                    </div>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="artist-info">
-                                            <div class="col-6">
-                                                <img class="artist-icon" src="https://i.pinimg.com/736x/ac/d5/79/acd5793a3968efdfe37a5573fdcb6f1a.jpg" alt="artist">
-                                            </div>
-                                            <div class="col-6">
-                                                Plus d'info <i class="bi bi-caret-right-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
+        <img src="\FutuRetro\assets\images\silly_cat.jpg" class="artwork-artist" alt="cat" />
+        <section class="artwork-section">
+            <h1>Silly Cat</h1>
+        </section>
 
-                                </div>
-                            </div>
-                        </a>
-                        <a href="artwork.html" class="col-4">
-                            <div class="card carte-haut">
-                                <div class="card-body carte-haut-corps">
-                                    <img src="\FutuRetro\assets\images\silly_cat.jpg" class="card-img-top carte-haut-image" alt="cat" />
-                                    <h4 class="card-title carte-haut-titre">Goofy Cat</h4>
-                                    <p class="card-text carte-haut-texte">Par: Rayon</p>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="col-6">
-                                            <p class="card-text carte-haut-texte"><i class="bi bi-calendar3"> 10/03/23</i></p>
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="card-text carte-haut-texte"><i class="bi bi-clock"> 20h</i></p>
-                                        </div>
-                                    </div>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="artist-info">
-                                            <div class="col-6">
-                                                <img class="artist-icon" src="https://i.pinimg.com/736x/ac/d5/79/acd5793a3968efdfe37a5573fdcb6f1a.jpg" alt="artist">
-                                            </div>
-                                            <div class="col-6">
-                                                Plus d'info <i class="bi bi-caret-right-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                </div>
-                            </div>
-                        </a>
-                        <a href="artwork.html" class="col-4">
-                            <div class="card carte-haut">
-                                <div class="card-body carte-haut-corps">
-                                    <img src="\FutuRetro\assets\images\silly_cat.jpg" class="card-img-top carte-haut-image" alt="cat" />
-                                    <h4 class="card-title carte-haut-titre">Goofy Cat</h4>
-                                    <p class="card-text carte-haut-texte">Par: Rayon</p>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="col-6">
-                                            <p class="card-text carte-haut-texte"><i class="bi bi-calendar3"> 10/03/23</i></p>
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="card-text carte-haut-texte"><i class="bi bi-clock"> 20h</i></p>
-                                        </div>
-                                    </div>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="artist-info">
-                                            <div class="col-6">
-                                                <img class="artist-icon" src="https://i.pinimg.com/736x/ac/d5/79/acd5793a3968efdfe37a5573fdcb6f1a.jpg" alt="artist">
-                                            </div>
-                                            <div class="col-6">
-                                                Plus d'info <i class="bi bi-caret-right-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </section>
-                <h2>Autres</h2>
-                <section class="container autres">
-                    <div class="row col-12 justify-content-between d-flex">
-                        <a href="artwork.html" class="col-12">
-                            <div class="card carte-bas">
-                                <div class="card-body carte-bas-corps">
-                                    <img src="\FutuRetro\assets\images\silly_cat.jpg" class="card-img-top carte-bas-image" alt="cat" />
-                                    <h4 class="card-title carte-bas-titre">Goofy Cat</h4>
-                                    <p class="card-text carte-bas-texte">Par: Rayon</p>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="col-6">
-                                            <p class="card-text carte-bas-texte"><i class="bi bi-calendar3"> 10/03/23</i></p>
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="card-text carte-bas-texte"><i class="bi bi-clock"> 20h</i></p>
-                                        </div>
-                                    </div>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="artist-info">
-                                            <div class="col-6">
-                                                <img class="artist-icon" src="https://i.pinimg.com/736x/ac/d5/79/acd5793a3968efdfe37a5573fdcb6f1a.jpg" alt="artist">
-                                            </div>
-                                            <div class="col-6">
-                                                Plus d'info <i class="bi bi-caret-right-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="artwork.html" class="col-12">
-                            <div class="card carte-bas">
-                                <div class="card-body carte-bas-corps">
-                                    <img src="\FutuRetro\assets\images\silly_cat.jpg" class="card-img-top carte-bas-image" alt="cat" />
-                                    <h4 class="card-title carte-bas-titre">Goofy Cat</h4>
-                                    <p class="card-text carte-bas-texte">Par: Rayon</p>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="col-6">
-                                            <p class="card-text carte-bas-texte"><i class="bi bi-calendar3"> 10/03/23</i></p>
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="card-text carte-bas-texte"><i class="bi bi-clock"> 20h</i></p>
-                                        </div>
-                                    </div>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="artist-info">
-                                            <div class="col-6">
-                                                <img class="artist-icon" src="https://i.pinimg.com/736x/ac/d5/79/acd5793a3968efdfe37a5573fdcb6f1a.jpg" alt="artist">
-                                            </div>
-                                            <div class="col-6">
-                                                Plus d'info <i class="bi bi-caret-right-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="artwork.html" class="col-12">
-                            <div class="card carte-bas">
-                                <div class="card-body carte-bas-corps">
-                                    <img src="\FutuRetro\assets\images\silly_cat.jpg" class="card-img-top carte-bas-image" alt="cat" />
-                                    <h4 class="card-title carte-bas-titre">Goofy Cat</h4>
-                                    <p class="card-text carte-bas-texte">Par: Rayon</p>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="col-6">
-                                            <p class="card-text carte-bas-texte"><i class="bi bi-calendar3"> 10/03/23</i></p>
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="card-text carte-bas-texte"><i class="bi bi-clock"> 20h</i></p>
-                                        </div>
-                                    </div>
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="artist-info">
-                                            <div class="col-6">
-                                                <img class="artist-icon" src="https://i.pinimg.com/736x/ac/d5/79/acd5793a3968efdfe37a5573fdcb6f1a.jpg" alt="artist">
-                                            </div>
-                                            <div class="col-6">
-                                                Plus d'info <i class="bi bi-caret-right-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-            </div>
 
-            </section>
-        </div>
-        </div>
+
     </main>
     <footer>
         <div class="container pied">
