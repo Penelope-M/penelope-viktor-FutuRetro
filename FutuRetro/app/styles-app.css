@@ -213,6 +213,7 @@ ul {
     border-radius: 10px;
     max-width: 200px;
     width: 200px !important;
+    white-space: nowrap !important;
 }
 
 .card-title {
@@ -253,5 +254,5 @@ a {
 }
 
 .vedette {
-    width: 140%;
+    width: 70vh;
 }
