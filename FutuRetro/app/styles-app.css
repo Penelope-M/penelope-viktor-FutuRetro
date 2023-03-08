@@ -25,7 +25,7 @@ body {
 
 main {
     margin-top: 100px;
-    height: 100vh;
+    height: 200vh;
     margin: 15px;
 }
 
@@ -42,6 +42,7 @@ h1 {
 
 h2 {
     color: var(--white);
+    font-size: 25px;
 }
 
 h3 {
@@ -50,10 +51,15 @@ h3 {
 
 h4 {
     color: var(--white);
+    font-size: 22px;
 }
 
 .navbar {
     background-color: var(--darkblue);
+}
+
+.navbar-brand {
+    margin-right: 0;
 }
 
 .offcanvas-header {
@@ -202,26 +208,38 @@ ul {
     padding: 0;
 }
 
-.card-img-top {
+.carte-haut-image {
     object-fit: cover;
     height: 20vh;
     border-radius: 10px;
 }
 
-.card {
+.carte-haut {
     background-color: var(--mauve);
     border-radius: 10px;
     max-width: 200px;
     width: 200px !important;
     white-space: nowrap !important;
+    margin-right: 20vh;
 }
 
-.card-title {
+.carte-haut-titre {
     margin-top: 8px;
 }
 
-.card-body {
+.carte-haut-corps {
     padding: 10px;
+}
+
+.carte-haut-texte {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.artist-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .btn-primary {
@@ -254,5 +272,50 @@ a {
 }
 
 .vedette {
-    width: 70vh;
+    width: 140%;
+}
+
+.cartes {
+    min-width: 80vh;
+    margin-bottom: 20px;
+}
+
+.autres {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.col-12 {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.carte-bas {
+    min-width: 30vh;
+    width: 100%;
+    background-color: var(--mauve);
+    background-color: var(--mauve);
+    border-radius: 10px;
+    white-space: nowrap !important;
+    margin-right: 20vh;
+    margin-bottom: 20px;
+}
+
+.carte-bas-image {
+    object-fit: cover;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.carte-bas-titre {
+    margin-top: 8px;
+}
+
+.carte-bas-corps {
+    padding: 10px;
+}
+
+.carte-bas-texte {
+    padding: 0;
+    margin-bottom: 10px;
 }
