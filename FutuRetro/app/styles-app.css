@@ -175,7 +175,7 @@ input::placeholder {
 .icon {
     width: 22px;
     height: 22px;
-    fill: var(--white);
+    fill: var(--pink);
     transform: translate(20%, 20%);
 }
 
