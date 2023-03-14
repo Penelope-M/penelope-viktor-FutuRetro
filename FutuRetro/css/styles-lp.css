@@ -1,9 +1,9 @@
 /*--------------------------------------------------------- 
 # Styles Généraux 
 ---------------------------------------------------------*/ 
-/*header {
-  width: 100vh;
-}*/
+header {
+ padding-bottom: 50px;
+}
 
 nav {
  
@@ -78,7 +78,7 @@ span{
   
   text-transform:uppercase;
 }
-p {
+main p {
   font-size: 25px;
 }/*
 .fonctionnalite h2 {
@@ -145,4 +145,20 @@ p {
 .swiper {
   width: 600px;
   height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
