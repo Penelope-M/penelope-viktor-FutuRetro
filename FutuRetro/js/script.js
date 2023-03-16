@@ -1,7 +1,7 @@
-var swiper = new Swiper('.mySwiper', {
+const swiper = new Swiper('.mySwiper', {
     // Optional parameters
-    direction: 'vertical',
- 
+    direction: 'horizontal',
+    loop: true,
   
     // Navigation arrows
   navigation: {
