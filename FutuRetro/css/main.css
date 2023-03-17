@@ -60,3 +60,6 @@ section {
 /*
 
 */ 
+swiper-slide{
+    opacity: 50%;
+}

@@ -162,3 +162,11 @@ main p {
   height: 100%;
   object-fit: cover;
 }
+
+.swiper-slide{
+  opacity: 50%;
+}
+
+.swiper-slide-active{
+  opacity: 100%;
+}

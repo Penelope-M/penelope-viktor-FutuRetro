@@ -3,7 +3,7 @@ const swiper = new Swiper('.swiper-screenshots', {
     direction: 'horizontal',
     loop: true,
     slidesPerView: 1,
-    spaceBetween:15,
+    spaceBetween:10,
     centeredSlides: true,
     effect: "coverflow",
     
