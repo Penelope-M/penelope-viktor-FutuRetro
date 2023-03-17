@@ -1,10 +1,21 @@
-const swiper = new Swiper('.mySwiper', {
+const swiper = new Swiper('.swiper-screenshots', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
     slidesPerView: 1,
+    spaceBetween:15,
     centeredSlides: true,
-    cssMode: true,
+    effect: "coverflow",
+    
+    
+  
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
     // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
@@ -14,15 +25,9 @@ const swiper = new Swiper('.mySwiper', {
     // when window width is >= 1200px
     1200: {
       slidesPerView: 3,
-      spaceBetween:25
+      spaceBetween:10,
       
     },
   },
-  coverflowEffect: {
-    rotate: 50,
-    stretch: 0,
-    depth: 100,
-    modifier: 1,
-    slideShadows: true,
-  },
+
 });
