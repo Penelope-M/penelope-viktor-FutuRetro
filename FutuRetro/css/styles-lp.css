@@ -170,3 +170,19 @@ main p {
 .swiper-slide-active{
   opacity: 100%;
 }
+/*
+.swiper-slide-active{
+  background-image: url("sell.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}*/
+
+.swiper-screenshots img{
+ 
+  border: 7px solid rgb(248, 248, 248);
+  border-radius: 2em;
+  
+}
+.swiper-slide-active{
+  opacity: 100%;
+}
