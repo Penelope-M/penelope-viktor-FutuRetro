@@ -80,6 +80,17 @@ h4 {
     border: none;
 }
 
+.like {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--darkmauve);
+    border: none;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
 .navbar-toggler-icon {
     background-image: var(--hamburger);
 }
