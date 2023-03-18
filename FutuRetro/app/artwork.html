@@ -27,9 +27,7 @@
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasDarkNavbar"
               aria-controls="offcanvasDarkNavbar">
-              <svg xmlns="http://www.w3.org/2000/svg" style="fill: rgb(255, 255, 255)" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-              </svg>
+              <i class="bi bi-chevron-left"></i>
             </button>
           </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -41,7 +39,7 @@
         </nav>
     </header>
     <main class="artwork-main">
-        <img src="\FutuRetro\assets\images\silly_cat.jpg" class="artwork-artist" alt="cat" />
+        <img src="/FutuRetro/assets/images/silly_cat.jpg" class="artwork-artist" alt="cat" />
         <section class="artwork-section">
             <h1>Silly Cat</h1>
             <div class="row d-flex justify-content-between">
@@ -57,31 +55,11 @@
             <div class="card artwork-card-artist">
                 <img class="artist-in-question" src="https://i.pinimg.com/736x/ac/d5/79/acd5793a3968efdfe37a5573fdcb6f1a.jpg" alt="artist">
                 <p>Jaime tellement les chats. OOOh BOYY que jaime les chats.. les chats cest la vie. jaime les chats goofy et silly. oui oui. jaime des chats de toute coulewurs uwu. les chats cewst maraveuilleworgjihbvderfgijkhbr</p>
-                <button type="button" class="btn artwork-btn">Vous ne voulez pas savoir plus</button>
+                <button type="button" class="btn artwork-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Vous ne voulez pas savoir plus</button>
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
 
 
 
@@ -129,16 +107,28 @@
                                 <input type="date " class="form-control " placeholder="La date desiree " aria-label="Recipient 's username " aria-describedby="basic-addon2 ">
                             </div> -->
 
-
-
-
         </section>
 
 
-
-
-
     </main>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Oh boyyyyyyyyy.... Je vous ai dit que vous ne vouliez pas savoir plus mais maitenant que vous etes ici... je vais vous ranconter une histoire. Il y avais un chat qui faisait miauo. Cest tout vous pouvez maitenant fermer votre cmpte bancaire.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
     <footer>
         <div class="container pied ">
             <div class="row ">
