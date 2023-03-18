@@ -17,15 +17,17 @@
     --hamburger: url(/FutuRetro/assets/images/hamburger.png);
 }
 
+.index {
+    margin-top: 100px;
+}
+
 body {
     background-color: var(--darkblue);
-    margin-top: 100px;
     overflow-x: hidden;
 }
 
 main {
-    margin-top: 100px;
-    height: 200vh;
+    /* height: 200vh; */
     margin: 15px;
 }
 
@@ -170,6 +172,7 @@ input::placeholder {
     max-width: 800px;
     padding: 0;
     display: block;
+    overflow-x: hidden;
 }
 
 .icon {
@@ -323,10 +326,18 @@ a {
 
 .nav-artwork {
     background-color: #05001400;
+    margin-top: 10px;
+}
+
+.bi-chevron-left {
+    color: white;
+    font-size: 20px;
 }
 
 .artwork-artist {
     height: 33vh;
+    width: 100%;
+    object-fit: cover;
 }
 
 .artwork-section {
@@ -342,6 +353,8 @@ a {
 
 .artwork-main {
     height: auto;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .artwork-card-artist {
