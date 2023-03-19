@@ -31,3 +31,23 @@ const swiper = new Swiper('.swiper-screenshots', {
     },
 
 });
+
+var swipefilter = new Swiper(".swiper-filter", {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    freeMode: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+var swipeartwork = new Swiper(".swiper-featured-artworks", {
+    slidesPerView: "auto",
+    spaceBetween: 10,
+    freeMode: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
