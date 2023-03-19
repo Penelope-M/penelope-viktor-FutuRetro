@@ -226,6 +226,11 @@ ul {
     white-space: nowrap;
 }
 
+.btn-filter:hover {
+    background-color: var(--pink) !important;
+    color: var(--white);
+}
+
 .cool {
     /* overflow: hidden; */
     padding: 0;
@@ -276,6 +281,10 @@ ul {
     justify-content: center;
     flex-direction: column;
     white-space: nowrap;
+}
+
+.btn:hover {
+    background-color: #FB2576;
 }
 
 a {

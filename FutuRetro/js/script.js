@@ -52,4 +52,11 @@ var swipeartwork = new Swiper(".swiper-featured-artworks", {
     },
 });
 
+
 const btn = document.querySelector(".like");
+
+function Like() {
+    document.getElementById("like").className = "liked";
+}
+
+btn.addEventListener("click", Like);
