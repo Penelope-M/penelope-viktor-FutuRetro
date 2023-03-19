@@ -436,6 +436,11 @@ a {
     width: auto;
 }
 
+.swiper-slide {
+    width: fit-content;
+    display: inline;
+}
+
 .swiper-slide:nth-child(1n) {
     width: 57%;
 }
