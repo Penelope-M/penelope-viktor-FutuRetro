@@ -51,3 +51,5 @@ var swipeartwork = new Swiper(".swiper-featured-artworks", {
         clickable: true,
     },
 });
+
+const btn = document.querySelector(".like");

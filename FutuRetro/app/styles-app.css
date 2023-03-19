@@ -90,6 +90,17 @@ h4 {
     padding-top: 7px;
 }
 
+.liked {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
 .navbar-toggler-icon {
     background-image: var(--hamburger);
 }
@@ -117,7 +128,6 @@ body::-webkit-scrollbar-thumb {
 footer {
     background-color: var(--mauve);
     padding: 1rem;
-    margin-top: 1rem;
     text-align: center;
     height: 200px;
     display: flex;
@@ -357,14 +367,14 @@ a {
     border-radius: 15px 15px 0px 0px;
     width: 100%;
     min-width: 34vh;
-    padding: 10px;
+    padding: 20px;
 }
 
 .artwork-main {
     height: auto;
     margin: 0;
     overflow-x: hidden;
-    margin-bottom: 0;
+    margin-bottom: -71px;
 }
 
 .artwork-card-artist {
@@ -406,6 +416,7 @@ a {
 
 .accordion-button {
     background-color: #FB2576;
+    border-radius: 30px;
 }
 
 .accordion-button:not(.collapsed) {
