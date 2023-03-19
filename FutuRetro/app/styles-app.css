@@ -364,6 +364,7 @@ a {
     height: auto;
     margin: 0;
     overflow-x: hidden;
+    margin-bottom: 0;
 }
 
 .artwork-card-artist {
@@ -437,7 +438,7 @@ a {
 }
 
 .swiper-slide {
-    width: fit-content;
+    width: fit-content !important;
     display: inline;
 }
 

@@ -33,8 +33,8 @@ const swiper = new Swiper('.swiper-screenshots', {
 });
 
 var swipefilter = new Swiper(".swiper-filter", {
-    slidesPerView: 3,
-    spaceBetween: 10,
+    slidesPerView: "auto",
+    spaceBetween: 7,
     freeMode: true,
     pagination: {
         el: ".swiper-pagination",
