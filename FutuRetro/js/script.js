@@ -1,3 +1,11 @@
+if (document.querySelector(".like")) {
+    function Liked() {
+        document.getElementById("like").classList.toggle("liked");
+    }
+    const btn = document.querySelector(".like");
+    btn.addEventListener("click", Liked);
+};
+
 const swiper = new Swiper('.swiper-screenshots', {
     // Optional parameters
     direction: 'horizontal',
@@ -51,12 +59,3 @@ var swipeartwork = new Swiper(".swiper-featured-artworks", {
         clickable: true,
     },
 });
-
-
-const btn = document.querySelector(".like");
-
-function Like() {
-    document.getElementById("like").className = "liked";
-}
-
-btn.addEventListener("click", Like);
